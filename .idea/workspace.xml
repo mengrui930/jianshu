@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf08bf4-e9d0-4fa4-a9bc-9b73228b84df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/header/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/statics/iconfont/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/header/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/header/store/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +82,7 @@
       <updated>1583345499187</updated>
       <workItem from="1583345500411" duration="7975000" />
       <workItem from="1583437304929" duration="8583000" />
+      <workItem from="1583523579001" duration="4651000" />
     </task>
     <servers />
   </component>

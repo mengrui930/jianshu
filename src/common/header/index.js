@@ -1,6 +1,7 @@
 import React from "react";
 import {connect} from 'react-redux';
 import {CSSTransition} from 'react-transition-group';
+import {actionCreators} from './store';
 import {HeaderWrapper, Logo, Nav, NavItem, NavSearch, Addition, Button, SearchWrapper} from "./style";
 
 const Header = (props) => {
@@ -43,23 +44,17 @@ const Header = (props) => {
 
 const mapStateToProps = (state) => {
     return {
-        focused: state.header.focused
+        focused: state.getIn(['header', 'focused'])
     }
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
         handledInputFocus() {
-            const action = {
-                type: 'search_focus'
-            };
-            dispatch(action);
+            dispatch(actionCreators.searchFocus());
         },
         handledInputBlur() {
-            const action = {
-                type: 'search_blur'
-            };
-            dispatch(action);
+            dispatch(actionCreators.searchBlur());
         }
     }
 };
