@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf08bf4-e9d0-4fa4-a9bc-9b73228b84df" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/api/home.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/List.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Topic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Writer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/style.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mengr\Projects\jianshu\public\api" />
       <recent name="C:\Users\mengr\Projects\jianshu\src\statics" />
     </key>
   </component>
@@ -83,7 +99,18 @@
       <workItem from="1583966469274" duration="187000" />
       <workItem from="1583970423852" duration="28000" />
       <workItem from="1585177086422" duration="1212000" />
-      <workItem from="1585250053447" duration="2164000" />
+      <workItem from="1585250053447" duration="2763000" />
+      <workItem from="1585334895301" duration="3847000" />
+      <workItem from="1585446489411" duration="647000" />
+      <workItem from="1585590273374" duration="3652000" />
+      <workItem from="1585767776213" duration="2256000" />
+      <workItem from="1586296231818" duration="3606000" />
+      <workItem from="1586373495340" duration="1240000" />
+      <workItem from="1586460606421" duration="3389000" />
+      <workItem from="1586544018567" duration="606000" />
+      <workItem from="1586818844685" duration="5099000" />
+      <workItem from="1586886716052" duration="4165000" />
+      <workItem from="1586991151070" duration="7786000" />
     </task>
     <servers />
   </component>
@@ -102,6 +129,10 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="532" y="226" key="FileChooserDialogImpl/0.0.1500.960/3000.901.1920.1040@0.0.1500.960" timestamp="1583966650098" />
+    <state x="3576" y="882" width="1122" height="946" maximized="true" key="dock-window-1" timestamp="1586993679897">
+      <screen x="3000" y="901" width="1920" height="1040" />
+    </state>
+    <state x="3576" y="882" width="1122" height="946" maximized="true" key="dock-window-1/0.0.1500.960/3000.901.1920.1040@0.0.1500.960" timestamp="1586993679897" />
     <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1583874014079">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
