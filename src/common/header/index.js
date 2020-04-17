@@ -6,6 +6,7 @@ import {
     HeaderWrapper, Logo, Nav, NavItem, NavSearch, Addition, Button, SearchWrapper, SearchInfo,
     SearchInfoTitle, SearchInfoSwitch, SearchInfoItem, SearchInfoList
 } from "./style";
+import {Link} from "react-router-dom";
 
 
 class Header extends Component {
@@ -51,7 +52,9 @@ class Header extends Component {
         const {focused, handledInputFocus, handledInputBlur, list} = this.props;
         return (
             <HeaderWrapper>
-                <Logo/>
+                <Link to='/'>
+                    <Logo/>
+                </Link>
                 <Nav>
                     <NavItem className='left active'>首页</NavItem>
                     <NavItem className='left'>下载App</NavItem>

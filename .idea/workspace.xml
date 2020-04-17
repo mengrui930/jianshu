@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf08bf4-e9d0-4fa4-a9bc-9b73228b84df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/api/home.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/detail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/components/List.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Topic.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/components/Writer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/homeList.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/home/store/constants.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/List.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Topic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Writer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/style.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mengr\Projects\jianshu\src\pages\home\store" />
       <recent name="C:\Users\mengr\Projects\jianshu\public\api" />
       <recent name="C:\Users\mengr\Projects\jianshu\src\statics" />
     </key>
@@ -111,6 +111,7 @@
       <workItem from="1586818844685" duration="5099000" />
       <workItem from="1586886716052" duration="4165000" />
       <workItem from="1586991151070" duration="7786000" />
+      <workItem from="1587065774748" duration="12351000" />
     </task>
     <servers />
   </component>
