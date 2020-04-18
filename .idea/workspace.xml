@@ -2,21 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fcf08bf4-e9d0-4fa4-a9bc-9b73228b84df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/api/homeList.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/store/actionCreators.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/home/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/detail.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/api/login.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/loadable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/detail/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/store/actionCreators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/store/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/store/reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/style.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/write/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/common/header/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/header/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/detail/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/detail/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/List.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Recommend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Topic.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Topic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/components/Writer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/components/Writer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/home/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/store/reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home/style.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home/style.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducer.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +122,7 @@
       <workItem from="1586886716052" duration="4165000" />
       <workItem from="1586991151070" duration="7786000" />
       <workItem from="1587065774748" duration="12351000" />
+      <workItem from="1587148682901" duration="15200000" />
     </task>
     <servers />
   </component>
@@ -134,9 +145,9 @@
       <screen x="3000" y="901" width="1920" height="1040" />
     </state>
     <state x="3576" y="882" width="1122" height="946" maximized="true" key="dock-window-1/0.0.1500.960/3000.901.1920.1040@0.0.1500.960" timestamp="1586993679897" />
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1583874014079">
+    <state x="414" y="207" width="672" height="678" key="search.everywhere.popup" timestamp="1587188114499">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="413" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1500.960/3000.901.1920.1040@0.0.1500.960" timestamp="1583874014079" />
+    <state x="414" y="207" width="672" height="678" key="search.everywhere.popup/0.0.1500.960/3000.901.1920.1040@0.0.1500.960" timestamp="1587188114499" />
   </component>
 </project>

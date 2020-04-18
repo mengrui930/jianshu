@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import {connect} from 'react-redux';
 import {CSSTransition} from 'react-transition-group';
 import {actionCreators} from './store';
+import {actionCreators as loginActionCreators} from '../../pages/login/store';
 import {
     HeaderWrapper, Logo, Nav, NavItem, NavSearch, Addition, Button, SearchWrapper, SearchInfo,
     SearchInfoTitle, SearchInfoSwitch, SearchInfoItem, SearchInfoList
@@ -16,9 +17,9 @@ class Header extends Component {
         const newList = list.toJS();
         const pageList = [];
 
-        if(newList.length) {
+        if (newList.length) {
             for (let i = (page - 1) * 10; i < page * 10; i++) {
-                if(newList[i]){
+                if (newList[i]) {
                     pageList.push(
                         <SearchInfoItem key={newList[i]}>{newList[i]}</SearchInfoItem>
                     )
@@ -35,7 +36,9 @@ class Header extends Component {
                     <SearchInfoTitle>
                         热门搜索
                         <SearchInfoSwitch onClick={() => handleChangePage(page, totalPage, this.spinIcon)}>
-                            <i ref={(icon) => {this.spinIcon = icon}} className="iconfont spin">&#xe606;</i>
+                            <i ref={(icon) => {
+                                this.spinIcon = icon
+                            }} className="iconfont spin">&#xe606;</i>
                             换一批
                         </SearchInfoSwitch>
                     </SearchInfoTitle>
@@ -49,7 +52,7 @@ class Header extends Component {
     }
 
     render() {
-        const {focused, handledInputFocus, handledInputBlur, list} = this.props;
+        const {focused, handledInputFocus, handledInputBlur, list, login, logout} = this.props;
         return (
             <HeaderWrapper>
                 <Link to='/'>
@@ -58,7 +61,11 @@ class Header extends Component {
                 <Nav>
                     <NavItem className='left active'>首页</NavItem>
                     <NavItem className='left'>下载App</NavItem>
-                    <NavItem className='right'>登录</NavItem>
+                    {
+                        login ?
+                            <NavItem onClick={logout} className='right'>退出</NavItem> :
+                            <Link to='/login'><NavItem className='right'>登录</NavItem></Link>
+                    }
                     <NavItem className='right'>
                         <i className="iconfont">&#xe636;</i>
                     </NavItem>
@@ -79,10 +86,12 @@ class Header extends Component {
                     </SearchWrapper>
                 </Nav>
                 <Addition>
-                    <Button className='writing'>
-                        <i className="iconfont">&#xe845;</i>
-                        写文章
-                    </Button>
+                    <Link to='/write'>
+                        <Button className='writing'>
+                            <i className="iconfont">&#xe845;</i>
+                            写文章
+                        </Button>
+                    </Link>
                     <Button className='reg'>注册</Button>
                 </Addition>
             </HeaderWrapper>
@@ -97,7 +106,8 @@ const mapStateToProps = (state) => {
         list: state.getIn(['header', 'list']),
         page: state.getIn(['header', 'page']),
         totalPage: state.getIn(['header', 'totalPage']),
-        mouseIn: state.getIn(['header', 'mouseIn'])
+        mouseIn: state.getIn(['header', 'mouseIn']),
+        login: state.getIn(['login', 'login'])
     }
 };
 
@@ -120,15 +130,18 @@ const mapDispatchToProps = (dispatch) => {
             let originAngle = spin.style.transform.replace(/[^0-9]/ig, '');
             if (originAngle) {
                 originAngle = parseInt(originAngle, 10);
-            }else {
+            } else {
                 originAngle = 0;
             }
             spin.style.transform = 'rotate(' + (originAngle + 360) + 'deg)';
             if (page < totalPage) {
                 dispatch(actionCreators.changePage(page + 1));
-            }else {
+            } else {
                 dispatch(actionCreators.changePage(1));
             }
+        },
+        logout() {
+            dispatch(loginActionCreators.logout())
         }
     }
 };
